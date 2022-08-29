@@ -22,7 +22,7 @@ jobs:
         name: HCL OneTest Performance
         steps:
          - name: HCL OneTest Performance
-           uses: anuraag-k/PerformanceTestAction@main
+           uses: HCL-TECH-SOFTWARE/PerformanceTestAction@main
            with:
             workspace: 
             project: 

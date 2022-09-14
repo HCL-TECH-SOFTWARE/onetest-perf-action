@@ -29,7 +29,7 @@ jobs:
         runs-on: self-hosted
         steps:
          - name: HCL OneTest Performance
-           uses: HCL-TECH-SOFTWARE/onetest-perf-action@v1
+           uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
            with:
             workspace: <C:\Data\SampleWorkspace>
             project: <MyProject>

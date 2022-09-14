@@ -8,7 +8,7 @@ jobs:
         name: HCL OneTest Performance
         steps:
          - name: HCL OneTest Performance
-           uses: HCL-TECH-SOFTWARE/PerformanceTestAction@main
+           uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
            with:
             workspace: 
             project: 

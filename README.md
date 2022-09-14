@@ -33,29 +33,7 @@ jobs:
            with:
             workspace: <C:\Data\SampleWorkspace>
             project: <MyProject>
-            suite: <MySuite> 
-            imShared: 
-            configFile: 
-            duration:
-            exportLog: 
-            exportStatReportList: 
-            exportStats: 
-            exportStatsFormat: 
-            exportStatsHtml: 
-            labels:
-            overrideRmLabels:
-            overwrite: 
-            publish: 
-            publishFor: 
-            publishReports: 
-            rate:
-            reportHistory:
-            results: 
-            swapDatasets:
-            userComments:             
-            users:
-            varFile:
-            vmArgs:
+            suite: <MySuite>
 ```
 
 3. Update the parameterized items to refer to your project and tests (see parameter details below).
@@ -70,7 +48,7 @@ As an alternative to having all of the test projects pre-configured on the runne
 
 - **workspace** Complete path to Eclipse workspace, required if configFile is not specified.
 - **project** The name of the project containing the test, required if configFile is not specified.
-- **suite** Specify the relative path from the project to the test including the file name of the test. A test can be a Performance test, Schedule, or Compound test and required if configFile is not specified.
+- **suite** The relative path from the project to the test including the file name of the test. A test can be a Performance test, Schedule, or Compound test and required if configFile is not specified.
 
 ### Optional Parameters
 
